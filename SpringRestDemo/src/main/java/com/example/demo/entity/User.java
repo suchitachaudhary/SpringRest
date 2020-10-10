@@ -38,6 +38,10 @@ public class User {
 	public void setUserAddress(String userAddress) {
 		this.userAddress = userAddress;
 	}
+	@Override
+	public String toString() {
+		return "User [userId=" + userId + ", userName=" + userName + ", userAddress=" + userAddress + "]";
+	}
 	
 	
 

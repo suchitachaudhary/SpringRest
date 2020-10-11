@@ -1,5 +1,5 @@
 package com.example.demo.entity;
-
+//table
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
